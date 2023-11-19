@@ -1,0 +1,39 @@
+.well-captured-media {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.facebook-negative {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dribbble-negative,
+.facebook-negative {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.bottom-footer,
+.social-ions {
+  display: flex;
+  flex-direction: row;
+}
+.social-ions {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.bottom-footer {
+  position: relative;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-12xl) var(--padding-35xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+  font-family: var(--font-inter);
+}
